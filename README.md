@@ -4,4 +4,4 @@
 
 #### My fridge app which contains: useState, functional components, class components. 
 
-##### Add products in your fridge, filter by category or choose all categories
+#### Add products in your fridge, filter by category or choose all categories
