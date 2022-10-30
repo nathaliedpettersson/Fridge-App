@@ -1,0 +1,36 @@
+@import '../components/Filter/_filter.css';
+@import '../components/Form/_form.css';
+
+/* Styles for body and items added to fridge */
+
+body {
+    margin: 0;
+    height: auto;
+    background-image: url("https://twolovesstudio.com/wp-content/uploads/2016/07/4-Must-Haves-For-Beautiful-Natural-Food-Photography-Lighting-with-Jo-Anderson-6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+li {
+    border: 3px solid thistle;
+    text-align: center;
+    padding: 0rem 3rem;
+    margin: 0.5rem 1rem;
+    flex: 10%;
+    border-radius: 5px;
+}
+
+h3 {
+    text-transform: uppercase;
+}
